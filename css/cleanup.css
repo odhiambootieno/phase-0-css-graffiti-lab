@@ -1,1 +1,27 @@
-/* write your override styles here */
+#wall .tag-1 {
+    background-color: white; 
+}
+
+#wall #tag-2 {
+    display: none; 
+}
+
+#wall #tag-3.slick.wicked {
+    color: red; 
+}
+
+#wall .parent #tag-4 {
+    border: 2px solid blue; 
+}
+
+#wall .parent #tag-5.slick {
+    opacity: 0.5;
+}
+
+#wall .parent div div #tag-6 {
+    transform: rotate(10deg);
+}
+
+#wall .parent div div #tag-7.slick {
+    visibility: hidden;
+}
